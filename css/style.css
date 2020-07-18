@@ -1,0 +1,576 @@
+/*
+                                                    Templet : Dubai | Bootstrab 4
+                                                    Goal    : Training
+                                                    From    : 12/7/2019
+                                                    To      : 15/7/2019
+                                                    By      : Ahmed Vector
+                                                    Codes   : 480 Codes With Out Media
+*/
+body{               
+    direction: rtl;
+}
+/*------Frame Work------*/
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*------Frame Work------*/
+/*----------------Start Header--------------------*/
+header{
+    background: url(../images/wallpaper-2b5b0.jpg) center;
+    background-size: cover;
+}
+
+header .overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header nav .navbar-brand{
+    padding: 20px;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+header nav .collapse .navbar-nav{
+    margin: 10px auto
+}
+
+header nav .collapse .navbar-nav li.nav-item a{
+    margin-left: 15px;
+    color: #fff;
+    font-size: 14px
+}
+
+header nav .collapse .navbar-nav li.active a{
+    color: rgba(255,255,255,.5)
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu a{
+    color: #000
+}
+
+header nav .collapse .navbar-nav li.nav-item:hover a{
+    color: rgba(255,255,255,.5) 
+}
+
+.dropdown-toggle::after{
+    display: none !important
+}
+
+header nav .linkes{
+    margin: 0 35px;
+    display: none
+}
+
+header nav .linkes i{
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff
+}
+
+header nav .linkes i:hover{
+    color: rgba(255,255,255,.5)
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu{
+    width: 950px;
+    background-color: #1b1d1f;
+    color: #e4e4e4;
+    left: -350px
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu ul{
+    list-style: none;
+    padding: 20px;
+    text-align: right
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu ul h3{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu ul li{
+    margin-top: 2px
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu ul li a{
+    color: #e4e4e4;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px 20px;
+    position: relative;
+    width: 100%
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu ul li a:hover{
+    color : rgba(255,255,255,.5);
+    background-color: #2d2c2c
+}
+
+header .collapse .navbar-nav li.dropdown .dropdown-menu ul:not(:first-child):after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 340px;
+    width: 1px;
+    height: 250px;
+    background-color: rgba(255,255,255,.5);
+}
+
+header .collapse .navbar-nav .dropdown:hover .dropdown-menu{
+    display: block
+}
+
+header .intro .carousel-inner{
+    transform: translateY(50%)
+}
+
+header .intro .carousel-item{
+    color: #fff;
+}
+
+header .intro .carousel-item h1{
+    font-size: 85px;
+    font-weight: bold
+}
+
+header .intro .carousel-item p{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 40px 0;
+}
+
+header .intro .carousel-item button{
+   width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+    color: #303133;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    position: relative;
+}
+
+header .intro .carousel-item button span{
+    transition: all 0.5s ease-in-out
+}
+
+header .intro .carousel-item button span:first-child{
+    background-color: #fff;
+    height: 170%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px 4px 80% 80%;
+    z-index: 2
+}
+
+header .intro .carousel-item button span:nth-child(2){
+    z-index: 5;
+    position: relative;
+}
+
+header .intro .carousel-item button:hover span:first-child{
+    height: 0;
+}
+
+header .intro .carousel-item button:hover{
+    color: #fff
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px
+}
+/*----------------End Header--------------------*/
+/*----------------------------------Start First Section---------------------------------------*/
+.carousel-indicators{
+    Padding:0;
+}
+
+.first-section{
+    padding: 50px 0 120px 0;
+    position: relative
+}
+
+.first-section .flow{
+    width: 100%;
+    height: 60%;
+    background-color: #141618;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.first-section .header-one h2{
+    font-size: 50px;
+    color: #303133;
+}
+
+.first-section .header-one p{
+    font-size: 20px;
+    width: 50%;
+    margin: 40px auto 100px auto;
+    color: #777777
+}
+
+.first-section .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+.first-section .carousel-inner .carousel-item img{
+    width: 70% !important;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 120px -47px #fff;
+    cursor: pointer
+}
+/*----------------------------------End First Section---------------------------------------*/
+/*----------------------------------Start Second Section---------------------------------------*/
+.second-section{
+    padding: 100px 0
+}
+
+.second-section .second-box{
+    transform: scale(0);
+    transition: all 0.8s ease-in-out
+}
+
+.second-section .second-box i{
+    font-size: 55px;
+    color: #b4975a  
+}
+
+.second-section .second-box h3{
+    margin: 20px 0;
+    font-size: 22px
+}
+
+.second-section .second-box p{
+    color: #777;
+    font-size: 14px
+}
+/*----------------------------------End Second Section---------------------------------------*/
+/*----------------------------------End Third Section---------------------------------------*/
+.third-section{
+    background: url(../images/guilherme-stecanella-589917-unsplash-min-uai-1440x759.jpg) center fixed;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    perspective: 800px
+}
+
+.third-section .overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.third-section .third-content{
+    color: #000;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+    z-index: 6;
+    opacity: 0;
+    transform: translateZ(400px);
+    transition: all 0.8s ease-in-out
+}
+
+.third-section .third-content p{
+    font-size: 42px;
+    margin: 20px 0 80px 0
+}
+
+.third-section .third-content button{
+    background-color: #fff;
+    color: #303133;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: all 0.4s ease-in-out
+}
+
+.third-section .third-content button i{
+    font-size: 22px
+}
+
+.third-section .third-content button:hover{
+    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.3)
+}
+/*----------------------------------End Third Section---------------------------------------*/
+/*----------------------------------Start Fourth Section---------------------------------------*/
+.fourth-section{
+    padding: 100px 0;
+}
+
+.fourth-section .fourth-box{
+    animation-name: forward;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    animation-play-state: paused
+}
+
+.fourth-section .fourth-box:nth-child(2){
+    animation-delay: 0.4s 
+}
+
+.fourth-section .fourth-box:last-child{
+    animation-delay: 0.8s 
+}
+
+.fourth-section .fourth-box img{
+    width: 95%;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.fourth-section .fourth-box h3{
+    color: #303133;
+    font-size: 22px;
+    margin: 30px 0 50px 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out
+}
+
+.fourth-section .fourth-box p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+.fourth-section .fourth-box h3::before{
+    content: "";
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    background-color: #eaeaea;
+    width: 80%;
+    height: 2px;
+    margin-left: 10%
+}
+
+.fourth-section .fourth-box h3:hover{
+    color: #b4975a
+}
+
+@keyframes forward {
+    0%{
+        opacity: 0;
+        transform: scale(0)
+    }
+    
+    100%{
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+/*----------------------------------End Fourth Section---------------------------------------*/
+/*----------------------------------Start Final Section---------------------------------------*/
+.final-section{
+    background-color: #1b1d1f
+}
+
+.final-section .final-content{
+    padding: 100px 0;
+    color: #fff
+}
+
+.final-section .final-content h4{
+    font-size: 18px
+}
+
+.final-section .final-content p{
+    font-size: 45px;
+    margin: 25px 0 50px 0
+}
+
+.final-section .final-content button{
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid #b4975a;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-weight: bold;
+    position: relative; 
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    background-color: none;
+    color: #fff;
+    left: 6px;
+}
+
+.final-section .final-content input{
+    height: 50px;
+    width: 500px;
+    border: none;
+    padding: 20px;
+    direction: ltr;
+}
+
+.final-section .final-content button:hover span:first-child{
+    height: 0;
+}
+
+.final-section .final-content button:hover{
+    color: #fff
+}
+
+.final-section .final-content button span:first-child{
+    background-color: #b4975a;
+    height: 170%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px 4px 80% 80%;
+    z-index: 2;
+    transition: all 0.6s ease-in-out
+}
+
+.final-section .final-content button span:nth-child(2){
+    z-index: 5;
+    position: relative;
+}
+/*----------------------------------End Final Section---------------------------------------*/
+/*----------------------------------Start Footer---------------------------------------*/
+footer{
+    padding: 150px 0;
+    background-color: #141618;
+    color: #fff
+}
+
+footer .footer-icons{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+footer .footer-icons i{
+    transition: all 0.6s ease-in-out
+}
+
+footer .footer-icons i:not(:first-child){
+    margin: 0 20px 30px 0
+}
+
+footer .directed h4{
+    color: #b5b5b5;
+}
+
+footer .directed i{
+    color: #d63031;
+    margin-right: 5px;
+}
+
+footer .footer-icons i:hover{
+    transform: rotate(360deg);
+}
+/*----------------------------------End Footer---------------------------------------*/
+/*Media Query*/
+@media (max-width: 992px){
+    header .intro .carousel-item h1{
+        font-size: 55px
+    }
+    header .intro .carousel-item p{
+        font-size: 30px
+    }
+    header .collapse .navbar-nav li.dropdown{
+        display: none
+    }
+    .second-section .second-box{
+        margin-bottom: 40px
+    }
+    .third-section .third-content p{
+        font-size: 30px;
+    }
+    .fourth-section .fourth-box h3{
+        font-size: 18px;
+        margin: 30px 0 20px 0;
+    }
+    .fourth-section .fourth-box p{
+        font-size: 12px; 
+    }
+    .fourth-section .fourth-box h3::before{
+        display: none
+    }
+    .fourth-section .fourth-box img{
+        border-radius: 0
+    }
+    .final-section .final-content p{
+        font-size: 28px;
+    }
+    .final-section .final-content input{
+        width: 250px;
+    }
+}
+@media (max-width: 768px){
+    header .intro .carousel-item h1{
+        font-size: 45px
+    }
+    header .intro .carousel-item p{
+        font-size: 20px
+    }
+    .first-section .header-one h2{
+        font-size: 35px
+    }
+    .first-section .header-one p{
+        font-size: 18px;
+        width: 100%
+    }
+    .third-section .third-content{
+        width: 100%
+    }
+    .third-section .third-content h2{
+        font-size: 20px;
+    }
+    .third-section .third-content p{
+        font-size: 22px;
+    }
+    .fourth-section .fourth-box{
+        margin-bottom: 40px
+    }
+    footer .footer-icons{
+        font-size: 14px;
+    }
+    footer .directed h4{
+        font-size: 18px;
+    }
+}
+@media (max-width: 576px){
+    header .intro .carousel-item h1{
+        font-size: 35px
+    }
+    .third-section .third-content h2 {
+        font-size: 15px;
+    }
+    .third-section .third-content p {
+        font-size: 16px;
+    }
+    .final-section .final-content input {
+        width: 220px;
+    }
+    footer .footer-icons{
+        font-size: 30px;
+    }
+    footer .footer-icons i{
+        margin: 0 20px 30px 0
+    }
+}
+/*Media Query*/
